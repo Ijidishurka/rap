@@ -1,12 +1,11 @@
-# Оксимирон 
-# Канал - @modwini
+# meta developer: @modwini
 from .. import loader
 from asyncio import sleep
 
 
 @loader.tds
 class rap(loader.Module):
-    strings = {"name": "оксимирон by @modwini"}
+    strings = {"name": "Реп оксимирона"}
 
     @loader.owner
     async def rapcmd(self, message):
